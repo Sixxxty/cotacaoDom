@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Odibee+Sans&family=Oswald&display=swap');
+
+body {
+    background-color: #00120B;
+    font-family: 'Oswald', sans-serif;
+
+}
+
+header {
+    background-color: #35605A;
+    color: #D8E4FF;
+    text-align: center;
+    font-size: 3em;
+    border-radius: 10px;
+    width: 50%;
+    margin-left: 25%
+}
+
+.container-cotacao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40em;
+}
+
+.form-cotacao {
+    color: #D8E4FF;
+    font-size: 3em;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+.form-cotacao input, select {
+    color: #00120B ;
+    font-size: 1em;
+    margin: .2em;
+    outline: unset;
+    border: .05em solid #35605A ;
+    border-radius: 5px;
+}
+#span-para, #lMoedaA {
+    text-align: center;
+}
+#resposta {
+    margin-left: 230px;
+    width: 30%;
+    text-align: center;
+    color: #00120B;
+
+} 
+
+.resposta-colocada {
+    transition: all 2s;
+    background-color: #D8E4FF;
+    text-align: center;
+    color: #00120B;
+    border: 2px solid #35605A;
+    border-radius: 5px;
+}

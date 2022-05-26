@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+    <title>Cotação</title>
+</head>
+
+<header>
+    <span>COTAÇÃO</span>
+</header>
+<body>
+    <div class="container-cotacao">
+        <form class="form-cotacao">
+            <label id="lMoedaA">Valor</label>
+            <input type="text" id="moeda-a" placeholder="Valor a ser convertido">
+            <select id="moeda-a-types">
+                <option value="USD">USD</option>
+                <option value="BRL">BRL</option>
+                <option value="EUR">EUR</option>
+            </select>
+            <div id="span-para"><span>PARA</span></div>
+            
+            <select id="moeda-b-types">
+                <option value="USD">USD</option>
+                <option value="BRL">BRL</option>
+                <option value="EUR">EUR</option>
+            </select>
+            <div id="resposta">
+                <span id="moeda-resposta"></span>
+            </div>
+            
+            <input type="submit" value="Cotar">
+        </form>
+    </div>
+    
+</body>
+</html>
